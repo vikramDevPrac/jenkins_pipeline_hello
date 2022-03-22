@@ -1,6 +1,6 @@
 node {
    stage 'Stage 1'
-   		echo 'venkat is python pro'
+   		sh 'python /home/ubuntu/script/disk_space.py'
    stage 'Stage 2'
    		echo 'Hello World 2'
 }
